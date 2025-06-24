@@ -15,7 +15,14 @@ extends Node
 #não pode haver dois tipos da mesma, apenas uma função
 	#por exemplo nao pode haver dois "func _ready():" se não dara erro
 #depois do nome da função se coloca  abre e fecha parentes e dois ponto
-	#depois do dois ponto ele dara tab automanticamente e 
+	#(depois do dois ponto eem qualquer lugar, ele dara TAB automanticamente 
+	#e o que estiver dentro do tab sera itemzado (vira "item") do algoritmo
+	#curiosidade é qualquer dois ponto quee ja vai tab)
+
+#"func _process" chama o algoritimo a cada frame do jogo 
+	#se tiveer 60 fps chamara 60 veses por segundo
+#deelta seera o valor estimado destee o ultimo frame (nao entendi)
+	#peesquisar deltatime
 
 
 #pass

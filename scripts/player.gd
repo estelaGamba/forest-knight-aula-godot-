@@ -7,5 +7,5 @@ func _ready() -> void: #chama uma vez ao iniciar o jogo
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta: float) -> void:
-#	pass
+func _process(delta: float) -> void: #
+	pass
