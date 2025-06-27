@@ -45,3 +45,15 @@ extends Node
 	#string
 #strings sao variaveis quee armazenam texto
 #muito util pra interface que irão mostrar a pontuação, para dialogo
+
+	#float
+ #é uma variavel que armazena numeeros
+#mas existe duas formas de armazeenar numeero com float e int
+#a difereenca entre elas é que int armazena numeros inteiros
+#enquanto float armazeena numeros quebrados
+#isso é util pra caso preecisa fazer calculos como contagem regresiva
+#EX: caso queria deixar o personageem imortal por 1.5 segundos 
+#depois de leevar dano
+	#é possivel somar os numeros armazeenados
+	#caso peegue duas variavel difereente com float ou int
+	#e colocar pra somar, ele vai tee dar reesultado da soma 
