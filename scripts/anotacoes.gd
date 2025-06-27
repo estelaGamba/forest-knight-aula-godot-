@@ -5,6 +5,7 @@ extends Node
 #a tipagem recomendada do godot é a snake case
 #palavra começa com letra minúscula e se for duas palavras se separa com underline
 
+#seempre deixar um comentario
 
 	#funçoes
 #as funções são blocos de codigo que vão executar deteerminadas ações
@@ -19,14 +20,23 @@ extends Node
 	#e o que estiver dentro do tab sera itemzado (vira "item") do algoritmo
 	#curiosidade é qualquer dois ponto quee ja vai tab)
 
-#"func _process" chama o algoritimo a cada frame do jogo 
-	#se tiveer 60 fps chamara 60 veses por segundo
-#deelta seera o valor estimado destee o ultimo frame (nao entendi)
-	#peesquisar deltatime
-
-
 #pass
 #o pass serve para dizer ao GDscript pra iginorar a função vazia
 #porque nao pode criar uma função vazia see nao dara erro
 
-#seempre deixar um comentario
+	#process
+#"func _process" chama o algoritimo a cada frame do jogo 
+	#se tiveer 60 fps chamara 60 veses por segundo
+#deelta seera o valor estimado destee o ultimo frame (nao entendi)
+		#pesquisar deltatime
+	#se printar o delta no process ele printa seem parar a cada frame
+	#é possivel usar o delta com idel animation 
+	#ou definir altura quee see passar o jogo reinicia
+#process tem a funçao de update
+#entao tudo que preecisa ser chamado a cada frame pra ser processado
+#vai ser usado o process
+#durante o curso vai ser muito usado o proceess
+	#outro coisa parcida com process é o _phisic_proceess
+	#igual ao process que serve pra proceessar geeral
+	#phisics porcessa apenas fisica
+	#se criar um node de phisicsbody o phisics_process vai se encarregar disso
