@@ -3,7 +3,8 @@ extends Node
 #tentarei anotar tudo de memoria
 
 #a tipagem recomendada do godot é a snake case
-#palavra começa com letra minúscula e se for duas palavras se separa com underline
+#palavra começa com letra minúscula
+#e se for duas palavras se separa com underline
 
 #seempre deixar um comentario
 
@@ -20,14 +21,14 @@ extends Node
 	#e o que estiver dentro do tab sera itemzado (vira "item") do algoritmo
 	#curiosidade é qualquer dois ponto quee ja vai tab)
 
-#pass
+	#pass
 #o pass serve para dizer ao GDscript pra iginorar a função vazia
 #porque nao pode criar uma função vazia see nao dara erro
 
 	#process
 #"func _process" chama o algoritimo a cada frame do jogo 
 	#se tiveer 60 fps chamara 60 veses por segundo
-#deelta seera o valor estimado destee o ultimo frame (nao entendi)
+#deelta sera o valor estimado destee o ultimo frame (nao entendi)
 		#pesquisar deltatime
 	#se printar o delta no process ele printa seem parar a cada frame
 	#é possivel usar o delta com idel animation 
@@ -40,3 +41,7 @@ extends Node
 	#igual ao process que serve pra proceessar geeral
 	#phisics porcessa apenas fisica
 	#se criar um node de phisicsbody o phisics_process vai se encarregar disso
+
+	#string
+#strings sao variaveis quee armazenam texto
+#muito util pra interface que irão mostrar a pontuação, para dialogo
