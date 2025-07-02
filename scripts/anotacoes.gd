@@ -59,7 +59,7 @@ extends Node
 	#e colocar pra somar, ele vai tee dar reesultado da soma 
 
 	#int
-#como espliqueei no float, eeint reetorna valor inteiro
+#como expliqueei no float, int reetorna valor inteiro
 #mas pra que isso serve?
 #vamos dar um exemplo que vamos programar um ataque
 #vamos fazer o ataquee base e o ataque bonus
@@ -74,3 +74,28 @@ extends Node
 #e pra uma infinitade de coisas, iguais numeeros que serveem pra quase tudo
 
 #tanto float e int nao precisa colocar nome deles na variavel
+#(me reefiro a "var int" ou "var float")
+
+	#tipagem dinamica
+#primeeeira coisa que preecisa ser dita, ée que a tipagem dinamica
+#nao é obrigatoria, porem é bastante util
+#ela vai transformar seu codigo maior? sim
+#mas tambem vai deixar seu jogo mais rapido
+#como funciona isso entao?
+#resumidamente, é expecificar o tipo da variavel 
+#por exeemplo em uma variavel do tipo float 
+#entao voce coloca no codigo que o tipo dela é float 
+	#ao invees dee colocar assim "var nome = 12.3"
+	#vai colocar assim "var nome: float = 12.3"
+#mas por que fazer isso? como foi dito antes deixa o jogo mais rapido
+#em caso de porjeto pequeno nao faz muita diferença
+#mas em caso de projetos muitos grandes, com varias coisas a ser procesadas
+#quando voce nao tipa alguma variavel, dara muito trabalho ao copilador (a godot)
+#pois quando voce copilar o seu projeto, a godot tera o trabalho a mais
+#pois ele tera que ir na variavel reconhecer o tipo dela e tipar-la
+#(sim a godot ainda ira tipar a variaveel de qualquer forma)
+#e retornar ela tipada enqunto roda o seu jogo
+#um vai e volta que poderia ser evidado de voce ja tivese tipado
+	# segundo alguns estudos (criado e documentado pela godot)
+	#os projetos ficam 200vezes mais rapido graças a tipageem dinamica
+#isso é algo que see pega com pratica
