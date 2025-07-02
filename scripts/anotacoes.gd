@@ -6,7 +6,7 @@ extends Node
 #palavra começa com letra minúscula
 #e se for duas palavras se separa com underline
 
-#seempre deixar um comentario
+#seempre deixar um comentario, nao subestime a cabacidade de esquecer
 
 	#funçoes
 #as funções são blocos de codigo que vão executar deteerminadas ações
@@ -57,3 +57,20 @@ extends Node
 	#é possivel somar os numeros armazeenados
 	#caso peegue duas variavel difereente com float ou int
 	#e colocar pra somar, ele vai tee dar reesultado da soma 
+
+	#int
+#como espliqueei no float, eeint reetorna valor inteiro
+#mas pra que isso serve?
+#vamos dar um exemplo que vamos programar um ataque
+#vamos fazer o ataquee base e o ataque bonus
+#no jogo que vamos fazer vai ter um sistema de status
+#quee caso o jogodor peegue algum iteem ou suba de nivel
+#esses atributos vão influenciar algumas proprietades do personagem
+	#por eexemplo: o personagem da 2 de ataque 
+	#e ele subiu de nivel e isso soma mais 3 de ataque
+	# entao fara com int ataque mais esse bonus que resultara em 5
+#mas valores inteeiros seeervem tambem: 
+#velocidade linear, aplicar pulo, pra gravidade, ataque defesa
+#e pra uma infinitade de coisas, iguais numeeros que serveem pra quase tudo
+
+#tanto float e int nao precisa colocar nome deles na variavel
