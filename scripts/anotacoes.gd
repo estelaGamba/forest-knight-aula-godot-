@@ -99,3 +99,25 @@ extends Node
 	# segundo alguns estudos (criado e documentado pela godot)
 	#os projetos ficam 200vezes mais rapido graças a tipageem dinamica
 #isso é algo que see pega com pratica
+
+	#if else elif 
+#o if so vai rodar se a consição dele estiver sido rodada
+#o if literalmente siginifica "se"
+# ou seja se a condicao que colocaou pra ela for verdadeira 
+#ele vai rodar o que voce peeediu pra ele rodar 
+	#exemplo: fazer o inimigo chegar com a vida no zero ele morre
+	# 'if enimy_life <= 0' 
+		#die (fazer de conta que criei a variavel "die")
+#else significa "se nao"
+#se caso a condiçao que voce colocaou no if nao for verdadeiro
+#entao ele vai rodar outra condção que colocar pra ele
+	#no exemplo de ataque de inimigo nao precisaria do else
+	#mas caso fizesse uma condição dele rodar alguma condição pra sobreviver
+#mas e se a condição for meio termo entra o ELIF
+#para uma condição que caso if for falso porem elif for verdadeiro
+#elif ira rodar ao inves do else
+	#exemplo caso queria que o inimigo tenha animção quando estiver
+	#quase morrendo
+	#(se coloca depois do if antes do else)
+	# elif enimy_life <= 3
+		 #quase_morrendo (preguiça de colocar em ingles)
