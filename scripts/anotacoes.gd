@@ -122,6 +122,14 @@ extends Node
 	#(se coloca depois do if antes do else)
 	# elif enimy_life <= 3
 		 #quase_morrendo (preguiça de colocar em ingles)
+#elif foi novidade pra mim
 
-	#bool
-#é a variavel booleana
+	#bool (boleana)
+#é a variavel booleana que é verdadeiro e falso
+#funcina muito bem em conjunto de if e else
+#é tao simples assim
+#sera usado muito: como pra ver se tem dinheiro comprar item 
+#se o mouse estiver em cima do item antes de clicar
+
+#um igual significa atribuição
+#dois igual siginifica comparação
