@@ -111,6 +111,7 @@ extends Node
 #else significa "se nao"
 #se caso a condiçao que voce colocaou no if nao for verdadeiro
 #entao ele vai rodar outra condção que colocar pra ele
+#else nao precisa de condição pra se rodado
 	#no exemplo de ataque de inimigo nao precisaria do else
 	#mas caso fizesse uma condição dele rodar alguma condição pra sobreviver
 #mas e se a condição for meio termo entra o ELIF
@@ -121,3 +122,6 @@ extends Node
 	#(se coloca depois do if antes do else)
 	# elif enimy_life <= 3
 		 #quase_morrendo (preguiça de colocar em ingles)
+
+	#bool
+#é a variavel booleana
